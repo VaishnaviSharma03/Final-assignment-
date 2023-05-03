@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+  }
+  .k{
+    text-align: center;
+  }
+  img{
+    border-radius: 10%;
+    width: 80%;
+    height: 50%;
+    margin-left: 10%;
+  }
+  #mg{
+    width:1%;
+    height:1%;
+  }
+  #pr{
+    color:blue;
+  }
+  #pree{
+    color:orange;
+  }
+  
+
+  .column {
+    float: left;
+    width: 33.3%;
+    padding: 0px;
+    
+  }
+
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+   
